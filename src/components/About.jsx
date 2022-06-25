@@ -1,0 +1,33 @@
+import React from 'react'
+import NavBar from './NavBar'
+
+const About = () => {
+    const c=[{
+        name:"Home",
+        color:"white",
+        url:"/"
+    },
+    {
+        name:"About",
+        color:"white",
+        url:"/about"
+    },
+    {
+        name:"Tools",
+        color:"white",
+        url:"/tool"
+    },
+    {
+        name:"Contact",
+        color:"white",
+        url:"/contact"
+    }]
+  return (
+    <div>
+        <NavBar b={c}/>
+        <div>About</div>
+    </div>
+  )
+}
+
+export default About
